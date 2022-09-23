@@ -7,15 +7,15 @@ monthly_challenges = {
     "january": "January Challenges",
     "february": "February Challenges",
     "march": "March Challenges",
-    "april":"april Challenges",
-    "mai": "mai Challenges",
-    "june": "june Challenges",
-    "july":"july Challenges",
-    "august": "august Challenges",
-    "september": "september Challenges",
-    "october":"october Challenges",
-    "november": "november Challenges",
-    "december": "december Challenges"
+    "april": "April Challenges",
+    "mai": "Mai Challenges",
+    "june": "June Challenges",
+    "july": "July Challenges",
+    "august": "August Challenges",
+    "september": "September Challenges",
+    "october": "October Challenges",
+    "november": "November Challenges",
+    "december": "December Challenges"
 }
 
 def index(request):
