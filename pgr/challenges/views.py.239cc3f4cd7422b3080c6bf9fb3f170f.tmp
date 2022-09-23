@@ -1,0 +1,22 @@
+from django.shortcuts import render
+from django.http import HttpResponse
+
+# Create your views here.
+def january(request):
+    return HttpResponse("January challenges")
+
+def february(request):
+    return HttpResponse("February challenges")
+
+def march(request):
+    return HttpResponse("March challenges")
+
+def monthly_challenge(request, month):
+    challenge_text = None
+    if month == "january":
+        challenge_text = "January Challenges"
+    elif month =="february":
+        challenge_text = "February Challenges"
+    elif month =="march":
+        challenge_text = "March Challenges"
+        
